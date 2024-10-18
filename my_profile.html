@@ -8,22 +8,45 @@
     <title>내 프로필</title>
 </head>
 <body>
-    <!-- 닉네임, 매너온도, (활동배지, 판매물품, 평가~일부가 보임~, 후기) -->
-    <div id="profile">
-        <img src="profile.png" alt="프로필 사진">
-        <span>닉네임</span>
-        <span># 회원 번호</span>
+    <div id="container">
+        <div id="profile">
+            <img src="profile.png" alt="프로필 사진">
+            <span>닉네임</span>
+            <span># 회원 번호</span>
+        </div>
+        <!-- 버튼 클릭시 이동 -->
+        <button>프로필 수정</button>
+        <div id="manner_tem">
+            <h5>매너 온도</h5>
+            <i class="fa-solid fa-circle-question"></i>
+            <span id="description">매너온도는 당근 사용자로부터 받은 칭찬,후기,비매너평가,운영자 제재 등을 종합해서 만든 매너 지표입니다.</span>
+            <!-- 라이브러리로 온도 바 설정 -->
+            <div>
+                <div id="gauge">
+                    <p>첫 온도 36.5℃</p>
+                    <p>▼</p>
+                </div>
+                <div id="bar"></div>     
+            </div>
+            <p>안녕하세요.</p>
+        </div>
+        <div id="history">
+            <!-- 판매 물품, 받은 매너 평가 -->
+            <ul>
+                <li>
+                    <a href="https://www.naver.com/">판매 물품 n개
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </li>
+                <li></li>
+                <li>
+                    <a href="http://www.google.com/">받은 매너 평가
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </li>
+                <li></li>
+            </ul>
+        </div>
     </div>
-    <button>프로필 수정</button>
-    <div id="manner_tem">
-        <h5>매너 온도</h5>
-        <i class="fa-solid fa-circle-question"></i>
-        <span id="description">매너 온도는 당근 사용자로부터 받은 칭찬, 후기, 비매너 평가, 운영자 제재 등을 종합해서 만든 매너 지표입니다.</span>
-        <!-- 라이브러리로 온도 바 설정 -->
-    </div>
-    <div id="history">
-
-    </div>
-
 </body>
 </html>
