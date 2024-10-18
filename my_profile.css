@@ -16,7 +16,7 @@ h5{display:inline-block; margin:0; text-decoration: underline;}
 #manner_tem i+span{background:#444; position:absolute; width:240px; left:30px; top:25px; padding:5px; display:none;
                     /* 기타↑ ↓폰트 관련 */
                     color:#fff; font-weight: bold; font-size:0.83em; word-break:keep-all; line-height: 20px;}
-#manner_tem i:hover+span{display:block;}
+#manner_tem i:hover+span{display:block; z-index: 1;}
 
 /* 임시: 온도 바 */
 #manner_tem div{margin:0;}
