@@ -1,0 +1,13 @@
+/* ==========기본 배경========== */
+main{width:600px; margin:auto; background: rgb(245, 245, 245);}
+main>div{padding:5px; margin:10px 0; background:#fff;}
+
+a{text-decoration: none;}
+button{cursor: pointer; border:none; background:inherit;}
+.details{position:relative; right:-95%; color:#666; margin:5px;}
+.details>button{font-size:20px;}
+#product{display:flex; align-items: center;}
+img{margin:15px;border-radius: 20px;}
+h3{color:#444;}
+p{color:#666;}
+.ass>button{width:95%; height:30px; font-weight:bold; display:block; margin:5px auto; border:silver solid 1px; border-radius: 5px; color:#444}
