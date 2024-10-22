@@ -1,0 +1,13 @@
+main{width:600px; margin:10px auto;}
+
+i{margin-right:10px;}
+h2>i{color:rgb(202, 202, 64);}
+
+/* ==========평가 하나========= */
+.my_manner{display:flex; justify-content: space-between; border-bottom: 1px solid silver;}
+div>p{margin:15px; height:30px; font-size:20px;}
+div>p:nth-of-type(2){color:gray;}
+
+/* ==========footer========== */
+footer{background:rgb(245,245,245); padding:10px;}
+ol, footer>p{margin:5px; }
